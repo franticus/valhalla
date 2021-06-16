@@ -1,0 +1,87 @@
+.preorderCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardItem img {
+    cursor: pointer;
+    background-color: #fff;
+    width: 192px;
+    height: 257px;
+    margin: 0 20px 12px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title {
+    width: 199px;
+    height: 36px;
+    margin: 12px 0 11px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.22px;
+    color: #ffffff;
+}
+
+.curPrice {
+    width: 57px;
+    height: 20px;
+    margin: 31px 142px 1px 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.curPriceCross {
+    text-decoration: line-through;
+    width: 45px;
+    height: 20px;
+    margin: 1px 6px 10px 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: rgba(235, 235, 245, 0.4);
+}
+
+.discount {
+    width: 50px;
+    height: 20px;
+    margin: 1px 98px 0 6px;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: -0.9px;
+    color: #a335ef;
+}
+
+.preOrderBtn {
+    cursor: pointer;
+    width: 166px;
+    height: 36px;
+    margin: 10px 46px 31px 0;
+    padding: 10px 48px;
+    border-radius: 3px;
+    background-color: #0a84ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    border: solid 1px #0a84ff;
+}

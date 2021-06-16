@@ -1,0 +1,140 @@
+.gamesHubWrapper {
+    margin-left: 200px;
+    margin-top: 500px;
+    width: 1040px;
+    color: #fff;
+}
+
+.gamesHub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.gamesHub section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.gamesHubTitle {
+    color: #f7b500;
+    font-size: 36px;
+}
+
+.gamesHubText {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: -0.19px;
+    opacity: 0.5;
+    color: #c5d2e3;
+}
+
+.discoverAll {
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+    color: #0a84ff;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 0 2px 18px 342px;
+    padding: 7px 13px 7px 15px;
+    border: solid 1px #0a84ff;
+}
+
+.findMore {
+    cursor: pointer;
+    background: none;
+    border-radius: 5px;
+    color: #0a84ff;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    padding: 7px 13px 7px 15px;
+    border: solid 1px #0a84ff;
+}
+
+.preorderCardsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hubSections {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.postItem {
+    width: 482px;
+    height: 208px;
+    margin: 21px 0 15px;
+    padding: 15px 15px 13px 16px;
+    border-radius: 10px;
+    background-color: #27272c;
+}
+
+.chanelItem {
+    width: 300px;
+    height: 48px;
+    margin: 21px 0 15px;
+    padding: 15px 15px 13px 16px;
+    border-radius: 10px;
+    background-color: #27272c;
+}
+
+.followItem {
+    width: 250px;
+    height: 48px;
+    margin: 21px 0 15px;
+    padding: 15px 15px 13px 16px;
+    border-radius: 10px;
+    background-color: #27272c;
+}
+
+.loadMore {
+    cursor: pointer;
+    width: 218px;
+    height: 36px;
+    padding: 7px 71px;
+    border-radius: 5px;
+    border: solid 1px #0a84ff;
+    background: none;
+    color: #0a84ff;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.loadMoreBtn {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

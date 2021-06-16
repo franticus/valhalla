@@ -1,0 +1,52 @@
+.sliderContainer {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #212124 50%, rgba(27, 27, 29, 0));
+}
+
+.swiperContainer {
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: visible !important;
+    transition: .3s;
+}
+
+.swiperSlide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.swiperSlide img {
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.swiperButtonPrev {
+    position: absolute;
+    z-index: 10;
+    left: 450px;
+    top: 250px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #c5d2e3;
+    color: #c5d2e3;
+    padding: 7px;
+}
+
+.swiperButtonNext {
+    position: absolute;
+    z-index: 10;
+    right: 450px;
+    top: 250px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #c5d2e3;
+    color: #c5d2e3;
+    padding: 7px;
+}

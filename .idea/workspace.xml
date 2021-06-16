@@ -16,7 +16,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JS\valhalla\src\components" />
+      <recent name="D:\JS\valhalla\src\assets\img" />
+      <recent name="D:\JS\valhalla\public" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,11 +37,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623601348975</updated>
-      <workItem from="1623601350616" duration="399000" />
+      <workItem from="1623601350616" duration="12438000" />
+      <workItem from="1623648752120" duration="20438000" />
+      <workItem from="1623739840386" duration="740000" />
+      <workItem from="1623757582057" duration="18844000" />
+      <workItem from="1623782432522" duration="288000" />
+      <workItem from="1623832575736" duration="3842000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="46" y="235" key="SettingsEditor" timestamp="1623739959221">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="46" y="235" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1623739959221" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

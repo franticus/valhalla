@@ -1,0 +1,21 @@
+.footerWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.copyright {
+    max-width: 500px;
+    width: 492px;
+    height: 48px;
+    margin: 0 237px 0 0;
+    opacity: 0.5;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: -0.18px;
+    color: #a6a6a6;
+}

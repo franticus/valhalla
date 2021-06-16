@@ -1,0 +1,33 @@
+.LatestPostsItem {
+    width: 482px;
+    height: 208px;
+    margin: 21px 0 15px;
+    padding: 15px 15px 13px 16px;
+    border-radius: 10px;
+    background-color: #27272c;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.postText {
+    width: 450px;
+    height: 74px;
+    margin: 13px 1px 15px 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #f2f2f2;
+}
+
+.replyBtns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
