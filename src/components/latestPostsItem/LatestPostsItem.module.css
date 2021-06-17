@@ -1,6 +1,6 @@
 .LatestPostsItem {
     width: 482px;
-    height: 208px;
+    height: 100%;
     margin: 21px 0 15px;
     padding: 15px 15px 13px 16px;
     border-radius: 10px;
@@ -14,7 +14,6 @@
 }
 
 .postText {
-    width: 450px;
     height: 74px;
     margin: 13px 1px 15px 0;
     font-size: 13px;
@@ -30,4 +29,71 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+.name {
+    width: 75px;
+    height: 20px;
+    margin: 6px 0 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+    color: #ffffff;
+}
+
+.linkName {
+    width: 70px;
+    height: 16px;
+    margin: 5px 6px 19px 15px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #0091ff;
+}
+
+.followersCount {
+    width: 74px;
+    height: 16px;
+    margin: 5px 185px 19px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.wasOnline {
+    width: 72px;
+    height: 16px;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(235, 235, 245, 0.3);
+}
+
+.commentsCount {
+    width: 90px;
+    height: 16px;
+    margin: 7px 10px 7px 220px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: rgba(235, 235, 245, 0.6);
 }

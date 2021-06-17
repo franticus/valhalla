@@ -85,3 +85,9 @@
     text-align: center;
     border: solid 1px #0a84ff;
 }
+
+.preOrderBtn:hover {
+    cursor: pointer;
+    transform: rotate(1deg) scale(1.1);
+    transition: all .3s ease-in-out;
+}

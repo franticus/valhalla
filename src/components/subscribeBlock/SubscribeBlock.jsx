@@ -14,7 +14,7 @@ const SubscribeBlock = () => {
                     {/*<img src={searchImg} alt="Search" className={'icnSearch'}/>*/}
                 </button>
             </div>
-            <button type='submit'>Subscribe</button>
+            <button type='submit' className={classes.subscribeBtn}>Subscribe</button>
         </section>
     );
 };

@@ -54,7 +54,7 @@ const Header = () => {
                             <img src={icnSocial} alt="social"/>Social</a>
                         <a href="/market">
                             <img src={icnMarket} alt="market"/>Market</a>
-                        <a href="Tournaments">
+                        <a href="/tournaments">
                             <img src={icnTourn} alt="tournaments"/>Tournaments</a>
                     </nav>
                 </div>

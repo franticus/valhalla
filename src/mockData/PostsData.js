@@ -11,8 +11,7 @@ const postsData = [
         wasOnline: '3hrs ago',
         postText: 'Sniper isnt overpowered.\n' +
             'Sniper has some of the lowest damage outputs in the game. 50 damage per shot is terrible, especially with the fire rate.\n' +
-            'Compared to heavy, who has 400+ DPS!.. Read More\n' +
-            'tell me how sniper compares.',
+            'Compared to heavy, who has 400+ DPS!.. Read More\n',
         commentsCount: '15 Comments'
     },
     {

@@ -5,20 +5,18 @@ import icnArrow from '../../assets/img/arrow.png'
 import icnHands from '../../assets/img/hands.png'
 import icnMessage from '../../assets/img/icn-comments.png'
 
-const latestPostsItem = ({
-                             imgSrc, name, linkName,
-                             postText, followersCount, commentsCount, wasOnline
-                         }) => {
+const latestPostsItem = ({imgSrc, name, linkName,
+                             postText, followersCount, commentsCount, wasOnline}) => {
     return (
         <div className={classes.LatestPostsItem}>
             <div className={classes.avatar}>
                 <img src={imgSrc} alt={name}/>
                 <div>
-                    <span>{name}</span><br/>
-                    <span>{linkName}</span>
-                    <span>{followersCount}</span>
+                    <span className={classes.name}>{name}</span><br/>
+                    <span className={classes.linkName}>{linkName}</span><br/>
+                    <span className={classes.followersCount}>{followersCount}</span>
                 </div>
-                <span>{wasOnline}</span>
+                <span className={classes.wasOnline}>{wasOnline}</span>
             </div>
             <p className={classes.postText}>{postText}</p>
             <div className="replyBtns">
@@ -30,9 +28,8 @@ const latestPostsItem = ({
                 </button>
                 <button className={classes.handsBtn}>
                     <img src={icnHands} alt="hands"/>
-                    <span>296</span>
                 </button>
-                <span>{commentsCount}</span>
+                <span className={classes.commentsCount}>{commentsCount}</span>
                 <img src={icnMessage} alt="message"/>
             </div>
         </div>

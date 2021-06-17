@@ -6,7 +6,7 @@ import SubscribeBlock from "./components/subscribeBlock/SubscribeBlock";
 import FooterNav from "./components/footerNav/FooterNav";
 import Footer from "./components/footer/Footer";
 
-function App() {
+const App = () => {
     return (
         <div className="appWrapper">
             <Header/>

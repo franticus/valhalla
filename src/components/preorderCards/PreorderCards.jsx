@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './PreorderCards.module.css'
-import wowCard from "../../assets/img/wowcard.png";
 
 const PreorderCards = ({title, imgSrc, curPrice, discount}) => {
     return (

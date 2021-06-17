@@ -16,7 +16,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 const Slider = () => {
     return (
         <section className={classes.sliderContainer}>
-            <button className={classes.swiperButtonPrev}>PREV</button>
+            {/*<button className={classes.swiperButtonPrev}>PREV</button>*/}
             <Swiper effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
@@ -37,7 +37,7 @@ const Slider = () => {
                 <SwiperSlide  className={classes.swiperSlide}>
                     <img src={slidePic3} alt="assassins3"/></SwiperSlide>
             </Swiper>
-            <button className={classes.swiperButtonNext}>NEXT</button>
+            {/*<button className={classes.swiperButtonNext}>NEXT</button>*/}
         </section>
     );
 };

@@ -21,6 +21,9 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\valhalla\src\mockData" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JS\valhalla\src\components" />
       <recent name="D:\JS\valhalla\src\assets\img" />
@@ -42,7 +45,8 @@
       <workItem from="1623739840386" duration="740000" />
       <workItem from="1623757582057" duration="18844000" />
       <workItem from="1623782432522" duration="288000" />
-      <workItem from="1623832575736" duration="3842000" />
+      <workItem from="1623832575736" duration="15901000" />
+      <workItem from="1623956915564" duration="1139000" />
     </task>
     <servers />
   </component>
@@ -50,23 +54,46 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623851401912">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="275" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1623851401912" />
     <state x="46" y="235" key="SettingsEditor" timestamp="1623739959221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="46" y="235" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1623739959221" />
+    <state x="110" y="270" width="594" height="516" key="find.popup" timestamp="1623957515046">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="110" y="270" width="594" height="516" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1623957515046" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
-          <line>35</line>
+          <line>16</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
-          <line>46</line>
-          <option name="timeStamp" value="22" />
+          <line>21</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/gamesHub/GamesHub.jsx</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,8 +1,8 @@
 .FollowItem {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    width: 300px;
+    justify-content: space-between;
+    min-width: 240px;
     height: 48px;
     margin: 21px 0 15px;
     padding: 15px 15px 13px 16px;
@@ -22,9 +22,11 @@
 }
 
 .followAvatar {
-
+    margin: 5px;
 }
 
-.followBtn {
-
+.followBtn:hover {
+    cursor: pointer;
+    transform: rotate(5deg) scale(1.1);
+    transition: all .3s ease-in-out;
 }
